@@ -3,4 +3,5 @@
     <string name="app_description">Cộng đồng ma sói việt nam</string>
     <string name="hint_email">nhập email</string>
     <string name="hint_password">Nhập password</string>
+    <string name="forgot_password">bạn quên mật khẩu?</string>
 </resources>
