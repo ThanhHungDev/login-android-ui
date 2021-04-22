@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--mình sẽ định nghĩa 1 gradiend trong android để nhìn nó có ovelay hơn-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:angle="180"
+        android:type="linear"
+        android:startColor="@color/colorLayerSemiDark"
+        android:endColor="@color/colorLayerDark"/>
+</shape>

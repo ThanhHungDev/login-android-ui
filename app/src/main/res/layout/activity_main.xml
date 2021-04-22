@@ -8,6 +8,7 @@ android:layout_height="match_parent"
 tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/img_header_login"
         android:contentDescription="@string/app_name"
         app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/bg_girl_login"
@@ -16,4 +17,12 @@ tools:context=".MainActivity">
         app:layout_constraintRight_toRightOf="parent"
         android:layout_width="match_parent"
         android:layout_height="280dp"/>
+    <View
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/img_header_login"
+        android:background="@drawable/header_login"
+        android:layout_height="0dp"
+        android:layout_width="0dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
