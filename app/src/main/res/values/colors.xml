@@ -6,6 +6,7 @@
     <color name="colorLayerDark">#D6000000</color>
     <color name="colorLayerSemiDark">#60000000</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray100">#e9e9e9</color>
     <color name="colorTextPrimary">#212121</color>
     <color name="colorTextHint">#808080</color>
 </resources>
