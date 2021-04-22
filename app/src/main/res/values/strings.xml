@@ -2,4 +2,5 @@
     <string name="app_name">Ma Sói</string>
     <string name="app_description">Cộng đồng ma sói việt nam</string>
     <string name="hint_email">nhập email</string>
+    <string name="hint_password">Nhập password</string>
 </resources>

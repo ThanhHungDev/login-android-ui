@@ -129,6 +129,42 @@ tools:context=".MainActivity">
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+
+        <EditText
+            app:layout_constraintTop_toBottomOf="@+id/viewDividerEmail"
+            android:id="@+id/edt_password"
+            android:hint="@string/hint_password"
+            android:layout_marginTop="40dp"
+            android:background="@null"
+            android:textColor="@color/colorPrimary"
+            android:imeOptions="actionDone"
+            android:textSize="15sp"
+            android:inputType="textPassword"
+            android:paddingBottom="10dp"
+            android:paddingStart="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="Autofill"/>
+        <View
+            app:layout_constraintLeft_toLeftOf="@+id/edt_password"
+            app:layout_constraintTop_toBottomOf="@+id/edt_password"
+            android:id="@+id/viewDividerPassword"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray100"/>
+
+        <ImageView
+            android:src="@drawable/lock_outline_black"
+            app:layout_constraintBottom_toBottomOf="@+id/edt_password"
+            app:layout_constraintLeft_toLeftOf="@+id/edt_password"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:tint="@color/colorTextHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
