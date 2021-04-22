@@ -107,11 +107,28 @@ tools:context=".MainActivity">
             android:textSize="15sp"
             android:inputType="textEmailAddress"
             android:paddingBottom="10dp"
-            android:paddingStart="60dp"
+            android:paddingStart="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:ignore="Autofill"/>
-        
+        <View
+            app:layout_constraintLeft_toLeftOf="@+id/edt_email"
+            app:layout_constraintTop_toBottomOf="@+id/edt_email"
+            android:id="@+id/viewDividerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray100"/>
+
+        <ImageView
+            android:src="@drawable/ic_email_black_24dp"
+            app:layout_constraintBottom_toBottomOf="@+id/edt_email"
+            app:layout_constraintLeft_toLeftOf="@+id/edt_email"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:tint="@color/colorTextHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
